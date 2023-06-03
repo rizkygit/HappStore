@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happstore</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../assets/images/logo/favicon.png" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style-prefix.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="overlay" data-overlay></div>
+
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <ul class="header-social-container">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header-main">
+      <div class="container">
+        <a href="#" class="header-logo">
+          <h3>HAPPSTORE</h3>
+          <!-- <img
+              src="../assets/images/logo/logo.svg"
+              alt="Anon's logo"
+              width="120"
+              height="36"
+              /> -->
+        </a>
+        <div class="header-search-container">
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name..." />
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+        <div class="header-user-actions">
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <nav class="desktop-navigation-menu" style="margin-bottom: 10px;">
+      <div class="container">
+        <ul class="desktop-menu-category-list">
+          <li class="menu-category">
+            <a href="../home.html" class="menu-title">Home</a>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">Category</a>
+            <div class="dropdown-panel">
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Foods Category</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="categories/kue-kering.html">Kue kering</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Kue basah</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Gorengan</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Minuman</a>
+                </li>
+                <li></li>
+              </ul>
+              <ul class="dropdown-panel-list">
+                <li class="menu-title">
+                  <a href="#">Accessories Category</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Topi</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Case Handphone</a>
+                </li>
+                <li class="panel-list-item">
+                  <a href="#">Jepit Rambut</a>
+                </li>
+                <li></li>
+              </ul>
+            </div>
+          </li>
+          <!-- <div class="panel-list-item" style="display: flex; align-items: center; justify-content: center;">
+                <a href="#">
+                  <img src="../assets/images/electronics-banner-1.jpg" alt="headphone collection"
+                    style="height: 200px; width: 500px;" />
+                </a>
+              </div> -->
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+      <div class="container">
+        <div class="product-box">
+          <div class="product-main">
+            <h2 class="title">Products</h2>
+            <div class="product-grid">
+              <div class="showcase">
+                <div class="showcase-banner">
+                  <img src="../assets/images/products/kue-2.jpg" alt="Kue Sagu" class="product-img default"
+                    width="300" />
+                  <img src="../assets/images/products/kue-2.jpg" alt="Kue Sagu" class="product-img hover" width="300" />
+                </div>
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Kue kering</a>
+                  <h3>
+                    <a href="#" class="showcase-title">Kue sagu ngeunah sakota bandung</a>
+                  </h3>
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                  <div class="price-box">
+                    <p class="price">28.000Rp</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+    <div class="footer-category">
+      <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="margin-bottom: 30px;">
+          <h2 class="footer-category-title">Directory</h2>
+          <div class="footer-category-box">
+            <h3 class="category-box-title">Foods :</h3>
+            <a href="#" class="footer-category-link">Gorengan</a>
+            <a href="#" class="footer-category-link">Kue Kering</a>
+            <a href="#" class="footer-category-link">Kue Basah</a>
+          </div>
+          <div class="footer-category-box">
+            <h3 class="category-box-title">Drinks :</h3>
+            <a href="#" class="footer-category-link">Jus Buah</a>
+            <a href="#" class="footer-category-link">Es Kopi</a>
+            <a href="#" class="footer-category-link">Milk Tea Boba</a>
+          </div>
+          <div class="footer-category-box">
+            <h3 class="category-box-title">Accessories :</h3>
+            <a href="#" class="footer-category-link">Topi</a>
+            <a href="#" class="footer-category-link">Jepit Rambut</a>
+            <a href="#" class="footer-category-link">Case Handphone</a>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <div class="container">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Contact</h2>
+              </li>
+              <li class="footer-nav-item flex">
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+                <address class="content">
+                  JL.Ciburial kp lebaksiuh RT 05 RW 01 Kab. Bandung
+                </address>
+              </li>
+              <li class="footer-nav-item flex">
+                <div class="icon-box">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+                <a href="tel:+607936-8058" class="footer-nav-link">(+62) 85923373811</a>
+              </li>
+              <li class="footer-nav-item flex">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <a href="mailto:example@gmail.com" class="footer-nav-link">happstore@gmail.com</a>
+              </li>
+            </ul>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <h2 class="nav-title">Follow Us</h2>
+              </li>
+              <li>
+                <ul class="social-link">
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+                  <li class="footer-nav-item">
+                    <a href="#" class="footer-nav-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .item {
+        display: none;
+      }
+    </style>
+    <script>
+      const searchInput = document.getElementById('searchInput');
+      const itemContainer = document.getElementById('itemContainer');
+      const items = itemContainer.getElementsByClassName('item');
+
+      searchInput.addEventListener('keyup', function (event) {
+        const searchValue = event.target.value.toLowerCase();
+
+        for (let i = 0; i < items.length; i++) {
+          const itemText = items[i].innerText.toLowerCase();
+
+          if (itemText.includes(searchValue)) {
+            items[i].style.display = 'block';
+          } else {
+            items[i].style.display = 'none';
+          }
+        }
+      });
+
+    </script>
+    <!--
+    - custom js link
+  -->
+    <script src="../assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
